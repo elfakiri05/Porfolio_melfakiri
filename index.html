@@ -369,89 +369,119 @@
     </div>
     <!-- ========== End Skills ========== -->
 
-    <!-- ========== Start Certificates ========== -->
-    <div class="certificates" id="certificates">
-      <div class="container">
-        <div class="main-heading">
-          <h2 class="main-title">Certificates</h2>
-          <p>
-            Here are some of the certifications I've earned over the years. These reflect my commitment to continuous learning and staying updated with the latest industry standards. Also, find here some of my Certificates of Recognition as an Events Organizer!
-          </p>
+        <!-- ========== Start Certificates ========== -->
+        <div class="certificates" id="certificates">
+          <div class="container">
+            <div class="main-heading">
+              <h2 class="main-title">Certificates</h2>
+              <p>
+                Here are some of the certifications I've earned over the years. These reflect my commitment to continuous learning and staying updated with the latest industry standards. Also, find here some of my Certificates of Recognition as an Events Organizer!
+              </p>
+            </div>
+            <div class="certificates-container">
+    
+              <div class="card">
+                <img src="./images/Certifications/Blue Team Level(BTL1).png" alt="SBT Certificate">
+                <h3>Blue Team Level 1</h3>
+                <h5>Issued by Security Blue Team </h5>
+                <p>Date: January 31, 2025</p>
+                <div class="live">
+                  <a id="view" class="view" onclick="openPopup('./images/Certifications/Blue Team Level(BTL1).png')">View Certificate</a>
+                  <a target="_blank" href="https://learn.365datascience.com/certificates/CC-F442EC3459/"><i class="fa-solid fa-file-certificate"></i>View Badge</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Security + certification-1.png" alt="CompTIA Certificate">
+                <h3>CompTIA Security+</h3>
+                <h5>Issued by CompTIA</h5>
+                <p>Date: November 23, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/Security + certification-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Pre Security THM-1.png" alt="TryHackMe Certificate">
+                <h3>Pre Security</h3>
+                <h5>Issued by TryHackMe</h5>
+                <p>Date: September 20, 2024</p>
+                <div class="live">
+                  <a id="view" class="view" onclick="openPopup('./images/Certifications/Pre Security THM-1.png')">View Certificate</a>
+                  <a target="_blank" href="https://www.credly.com/badges/73b07402-861d-4c7b-8d49-19aaa58eec5a/public_url"><i class="fa-solid fa-file-certificate"></i>View Badge</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Introduction to cyber security THMpng-1.png" alt="TryHackMe Certificate">
+                <h3>Introduction to Cyber Security</h3>
+                <h5>Issued by TryHackMe</h5>
+                <p>Date: Date 19 September, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/Introduction to cyber security THMpng-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Paloalto Network Security Fundamentals _ -1.png" alt="Palo Alto Certificate">
+                <h3>Network Security Fundamentals</h3>
+                <h5>Issued by Palo Alto Networks</h5>
+                <p>Date: August 26, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/Paloalto Network Security Fundamentals _ -1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Intro to Splunk-1.png" alt="Splunk Certificate">
+                <h3>Introduction to Splunk</h3>
+                <h5>Issued by Splunk</h5>
+                <p>Date: August 19, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/Intro to Splunk-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/Cisco Introduction to Networks-1.png" alt="CCNA Certificate">
+                <h3>Introduction to Networks</h3>
+                <h5>Issued by Cisco Networking Academy</h5>
+                <p>Date: March 13, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/Cisco Introduction to Networks-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/SKILL-FRONT information security associate-1.png" alt="Splunk Certificate">
+                <h3>ISO/IEC 27001:2022 Information Security Associate</h3>
+                <h5>Issued by SkillFront</h5>
+                <p>Date: January 12, 2024</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/SKILL-FRONT information security associate-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+              <div class="card">
+                <img src="./images/Certifications/EC-Council Ethical Hacking Essentials Certificat-1.png" alt="Splunk Certificate">
+                <h3>Ethical Hacking Essentials (EHE)</h3>
+                <h5>Issued by EC-Council</h5>
+                <p>Date: August 11, 2023</p>
+                <div class="live">
+                  <a class="view" onclick="openPopup('./images/Certifications/EC-Council Ethical Hacking Essentials Certificat-1.png')">View Certificate</a>
+                </div>
+              </div>
+    
+                  <!-- Popup overlay -->
+              <div class="overlay" id="overlay" onclick="closePopup()">
+                <div class="popup" onclick="event.stopPropagation()">
+                  <img id="popupImage" src="" alt="Certificate">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="certificates-container">
-
-          <div class="card">
-            <img src="./images/certificates/CC-F442EC3459.png" alt="365 DS Certificate">
-            <h3>Git & GitHub</h3>
-            <h5>Issued by 365 Data Science</h5>
-            <p>Date: 14th November 2024</p>
-            <div class="live">
-              <a id="view" class="view" onclick="openPopup('./images/certificates/CC-F442EC3459.png')">View Certificate</a>
-              <a target="_blank" href="https://learn.365datascience.com/certificates/CC-F442EC3459/"><i class="fa-solid fa-file-certificate"></i>View Badge</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/certificates/THM-ZN6HKEXX2O.png" alt="THM Certificate">
-            <h3>Introduction to Cybersecurity</h3>
-            <h5>Issued by TryHackMe.com</h5>
-            <p>Date: 7th October 2024</p>
-            <div class="live">
-              <a class="view" onclick="openPopup('./images/certificates/THM-ZN6HKEXX2O.png')">View Certificate</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/certificates/Introduction_to_Cybersecurity_Badge20241009-7-bhdzpt-1.png" alt="CISCO Certificate">
-            <h3>CISCO Course Completion</h3>
-            <h5>Issued by CISCO Networking Academy</h5>
-            <p>Date: 5th October 2024</p>
-            <div class="live">
-              <a id="view" class="view" onclick="openPopup('images/certificates/Introduction_to_Cybersecurity_Badge20241009-7-bhdzpt-1.png')">View Certificate</a>
-              <a target="_blank" href="https://www.credly.com/badges/73b07402-861d-4c7b-8d49-19aaa58eec5a/public_url"><i class="fa-solid fa-file-certificate"></i>View Badge</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/certificates/Simplon.jpeg" alt="Web Developement Certificate">
-            <h3>Web Developement</h3>
-            <h5>Issued by Simplon.co</h5>
-            <p>Date: 12th September 2022</p>
-            <div class="live">
-              <a class="view" onclick="openPopup('./images/certificates/Simplon.jpeg')">View Certificate</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/certificates/LeaderIT-WAVE.png" alt="Web Developement Certificate">
-            <h3>Leader of the Organization Team</h3>
-            <h5>Issued by IT-WAVE Team</h5>
-            <p>Date: 17th May 2024</p>
-            <div class="live">
-              <a class="view" onclick="openPopup('./images/certificates/LeaderIT-WAVE3.png')">View Certificate</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/certificates/SoliHackathon.png" alt="Web Developement Certificate">
-            <h3>Membre of the Organization and Communication team SoliHackathon'22</h3>
-            <h5>Issued by Solicode Tangier | Simplon.co</h5>
-            <p>Date: 25th May 2022</p>
-            <div class="live">
-              <a class="view" onclick="openPopup('./images/certificates/SoliHackathon.png')">View Certificate</a>
-            </div>
-          </div>
-
-              <!-- Popup overlay -->
-          <div class="overlay" id="overlay" onclick="closePopup()">
-            <div class="popup" onclick="event.stopPropagation()">
-              <img id="popupImage" src="" alt="Certificate">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ========== End Certificates ========== -->
+        <!-- ========== End Certificates ========== -->
 
     <!-- ========== Start My Projects ========== -->
     <div class="projects" id="Projects">
